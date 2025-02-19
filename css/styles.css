@@ -1,3 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container::before{
+    content: '';
+    background-image: url(../images/cereals.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.25;
+}
+
+
 #main {
     margin-top: 100px;
 }
@@ -71,4 +98,10 @@ max-height: 500px;
     margin-top: 50px;
     margin-left: 50px; 
 
+}
+#up{
+    background-color: azure;
+}
+#sub{
+    background-color: azure;
 }

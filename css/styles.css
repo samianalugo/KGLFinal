@@ -12,7 +12,7 @@
 }
 .container::before{
     content: '';
-    background-image: url(../images/cereals.jpg);
+    background-image: url(../images/cowb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
